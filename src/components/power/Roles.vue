@@ -141,10 +141,10 @@
       width="40%"
     >
       <el-form :model="editForm" ref="editFormRef" label-width="70px">
-        <el-form-item label="用户名">
+        <el-form-item label="角色名称">
           <el-input v-model="editForm.roleName"></el-input>
         </el-form-item>
-        <el-form-item label="邮箱" prop="email">
+        <el-form-item label="角色描述" >
           <el-input v-model="editForm.roleDesc"></el-input>
         </el-form-item>
       </el-form>

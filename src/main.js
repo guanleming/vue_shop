@@ -5,6 +5,7 @@ import './plugins/element.js'
 
 //导入全局样式表
 import './assets/css/global.css'
+import TreeTable from 'vue-table-with-tree-grid'
 
 //让每个vue组件都可以通过this直接访问$http从而去发起axios请求
 import axios from 'axios'
@@ -19,6 +20,8 @@ axios.interceptors.request.use(config => {
 Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
+
+Vue.component('tree-table', TreeTable)
 
 new Vue({
     router,

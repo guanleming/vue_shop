@@ -176,7 +176,7 @@
           <el-select v-model="selectdRoleId" placeholder="请选择">
             <el-option
               v-for="item in rolesList"
-              :key="item.id"
+              :key="item.id" 
               :label="item.roleName"
               :value="item.id"
 
