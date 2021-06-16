@@ -42,3 +42,27 @@ body,
 .el-cascader {
     width: 30%;
 }
+
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+.el-checkbox {
+    width: 200px;
+}
+
+.el-form-item__label {
+    width: 100px;
+}
+
+.ql-editor {
+    min-height: 300px;
+}
+
+.el-button {
+    margin-top: 10px;
+}
