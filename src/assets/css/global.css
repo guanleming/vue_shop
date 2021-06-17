@@ -66,3 +66,7 @@ body,
 .el-button {
     margin-top: 10px;
 }
+
+.el-cascader {
+    width: 100%;
+}
